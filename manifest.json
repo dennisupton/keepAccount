@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Keep Account",
+  "version": "1.0",
+  "description": "Keep Your Google pages on the same account",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "https://*.google.com/*"
+  ],
+  "permissions": ["activeTab", "scripting","tabs","storage"],
+    "content_scripts": [
+    {
+        "matches": ["https://*.google.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+    }
+    ]
+
+}
