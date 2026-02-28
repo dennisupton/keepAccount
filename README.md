@@ -1,5 +1,5 @@
-# keepAccount
-A chrome extension that lets you easily set your default google account!
+# Keep Account
+A Chrome Extension that lets you easily set your default Google account!
 
 Keep Account provides a popup that lets you change your default google account
 
